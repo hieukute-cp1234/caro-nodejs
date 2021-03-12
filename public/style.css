@@ -1,0 +1,22 @@
+#chatForm{
+    width: 200px;
+    float: right;
+    padding: 10px;
+    margin-left: -200px;
+}
+#contents{
+    border: 1px solid darkgrey;
+    width: 190px;
+    height: 300px;
+    padding: 10px;
+    overflow-y: scroll;
+    background-color: cornflowerblue;
+}
+
+#contents p {
+    margin: 5px;
+}
+
+#usernames, #contents, #messages, #sendmessages {
+    margin-bottom: 5px;
+}
